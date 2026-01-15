@@ -1,0 +1,35 @@
+# RStudio / RMarkdown
+.Rhistory
+.RData
+.Rproj.user
+*.utf8.md
+*.knit.md
+cache/
+*_cache/
+
+# Spark / Hive local metastore
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs
+logs/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Outputs / temporary
+*.tmp
+*.bak
+
+# Python / virtual env (if any)
+venv/
+.env/
+__pycache__/
+*.pyc
